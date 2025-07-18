@@ -1,0 +1,8 @@
+databaseChangeLog:
+  - changeSet:
+      id: V1-limits
+      author: vNekrylova
+      comment: Создание limits
+      changes:
+        - sqlFile:
+            path: db/changelog/limits/V1__init_limits.sql
